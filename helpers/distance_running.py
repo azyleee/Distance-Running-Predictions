@@ -891,3 +891,9 @@ def user_finetune(base_handler,
                      factor_duplications = 0.1)
 
     return ft_handler
+
+def minutes2hms(decimal_minutes):
+    hours = int(decimal_minutes / 60)
+    minutes = int(decimal_minutes % 60)
+    seconds = int((decimal_minutes * 60) % 60)
+    return hours, minutes, seconds

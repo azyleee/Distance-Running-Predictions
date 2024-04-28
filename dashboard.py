@@ -1,5 +1,11 @@
 import streamlit as st
 import pandas as pd
+
+from pathlib import Path
+import sys
+
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 from helpers.distance_running import read_strava_csv, get_best_model, user_finetune, minutes2hms, prepare_user_data
 
 st.markdown("""

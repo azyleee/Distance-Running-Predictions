@@ -22,7 +22,7 @@ The entire process was conducted in ```main.ipynb```, with modules contained in 
 
 The application achieved a notable 97% accuracy in race time prediction for the creator's 5K time.
 
-To try out the application yourself, visit the deployed [dashboard on Streamlit](https://distance-running-predictions.streamlit.app/)"
+<!-- To try out the application yourself, visit the deployed [dashboard on Streamlit](https://distance-running-predictions.streamlit.app/)" -->
 
 # Prerequisite Libraries
 * ```numpy```

@@ -241,9 +241,9 @@ def my_interactable_xyline(y1, x1=None, y1_label=None, y2=None, x2=None, y2_labe
     fig = go.Figure()
 
     # Add traces
-    fig.add_trace(go.Scatter(x=x1, y=y1, mode='lines', name=y1_label))
+    fig.add_trace(go.Scatter(x=x1, y=y1, mode='lines', name=y1_label, line=dict(color=theme['red'])))
     if y2 is not None:
-        fig.add_trace(go.Scatter(x=x2, y=y2, mode='lines', name=y2_label))
+        fig.add_trace(go.Scatter(x=x2, y=y2, mode='lines', name=y2_label, line=dict(color=theme['blue'])))
 
     # Set labels
     fig.update_layout(

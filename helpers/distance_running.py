@@ -854,18 +854,19 @@ def user_finetune(base_handler,
                   y_train_tensor, 
                   y_test_tensor,
                   epochs = 512,
-                  batch_size = 20):
+                  batch_size = 20,
+                  patience = 100):
 
     # copy the base model
     ft_model = copy.deepcopy(base_handler.model)
 
-    # # freeze model parameters to prevent backpropagation 
-    for param in ft_model.parameters():
-        param.requires_grad = False
+    # # # freeze model parameters to prevent backpropagation 
+    # for param in ft_model.parameters():
+    #     param.requires_grad = False
 
-    # # Unfreeze the last layer
-    for param in ft_model.output.parameters():
-        param.requires_grad = True
+    # # # Unfreeze the last layer
+    # for param in ft_model.output.parameters():
+    #     param.requires_grad = True
     # for param in ft_model.actv2.parameters():
     #     param.requires_grad = True
     # for param in ft_model.actv1.parameters():
@@ -886,7 +887,7 @@ def user_finetune(base_handler,
                      y_train_tensor = y_train_tensor,
                      x_test_tensor  = x_test_tensor,
                      y_test_tensor  = y_test_tensor,
-                     EarlyStopping_Patience=100,
-                     factor_duplications=0.1)
+                     EarlyStopping_Patience = patience,
+                     factor_duplications = 0.1)
 
     return ft_handler

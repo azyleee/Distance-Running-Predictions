@@ -1,1 +1,228 @@
-{"athletes_completed": [], "handler001.pkl": {"athlete": "[19023831]"}}
+{
+    "athletes_completed": "[19023831, 23729907, 3573750, 10825360, 6367873, 20653961, 16378210, 2081128, 10446972, 18736169, 22835898, 5035018, 6215611, 7947798, 5688059, 11348733, 18223349, 5421161, 5151970, 3460571, 19741163, 5861500, 12021072, 25191153, 15515123, 11088529, 11284478, 3539760, 22843389, 14588097, 20136629, 2913078, 16021442, 22891135, 34669133, 1776170, 26367918, 21299972, 12701438, 14019837, 12740383, 34460713, 18042525, 22353493, 12642956]",
+    "handler001.pkl": {
+        "athlete": "[19023831]",
+        "best_mape_test": 0.08419593423604965,
+        "total_epochs": 3
+    },
+    "handler002.pkl": {
+        "athlete": "[23729907]",
+        "best_mape_test": 0.1234254464507103,
+        "total_epochs": 34
+    },
+    "handler003.pkl": {
+        "athlete": "[3573750]",
+        "best_mape_test": 0.10401434451341629,
+        "total_epochs": 33
+    },
+    "handler004.pkl": {
+        "athlete": "[10825360]",
+        "best_mape_test": 0.1343102753162384,
+        "total_epochs": 53
+    },
+    "handler005.pkl": {
+        "athlete": "[6367873]",
+        "best_mape_test": 0.11217620223760605,
+        "total_epochs": 114
+    },
+    "handler006.pkl": {
+        "athlete": "[20653961]",
+        "best_mape_test": 0.14209432899951935,
+        "total_epochs": 37
+    },
+    "handler007.pkl": {
+        "athlete": "[16378210]",
+        "best_mape_test": 0.08803344517946243,
+        "total_epochs": 73
+    },
+    "handler008.pkl": {
+        "athlete": "[2081128]",
+        "best_mape_test": 0.06173929572105408,
+        "total_epochs": 43
+    },
+    "handler009.pkl": {
+        "athlete": "[10446972]",
+        "best_mape_test": 0.10232600569725037,
+        "total_epochs": 142
+    },
+    "handler010.pkl": {
+        "athlete": "[18736169]",
+        "best_mape_test": 0.15918061137199402,
+        "total_epochs": 280
+    },
+    "handler011.pkl": {
+        "athlete": "[22835898]",
+        "best_mape_test": 0.0823480635881424,
+        "total_epochs": 39
+    },
+    "handler012.pkl": {
+        "athlete": "[5035018]",
+        "best_mape_test": 0.10049909353256226,
+        "total_epochs": 86
+    },
+    "handler013.pkl": {
+        "athlete": "[6215611]",
+        "best_mape_test": 0.15755857527256012,
+        "total_epochs": 50
+    },
+    "handler014.pkl": {
+        "athlete": "[7947798]",
+        "best_mape_test": 0.11585686355829239,
+        "total_epochs": 56
+    },
+    "handler015.pkl": {
+        "athlete": "[5688059]",
+        "best_mape_test": 0.08459451049566269,
+        "total_epochs": 97
+    },
+    "handler016.pkl": {
+        "athlete": "[11348733]",
+        "best_mape_test": 0.08190316706895828,
+        "total_epochs": 79
+    },
+    "handler017.pkl": {
+        "athlete": "[18223349]",
+        "best_mape_test": 0.11681921780109406,
+        "total_epochs": 278
+    },
+    "handler018.pkl": {
+        "athlete": "[5421161]",
+        "best_mape_test": 0.101569265127182,
+        "total_epochs": 92
+    },
+    "handler019.pkl": {
+        "athlete": "[5151970]",
+        "best_mape_test": 0.0870264321565628,
+        "total_epochs": 15
+    },
+    "handler020.pkl": {
+        "athlete": "[3460571]",
+        "best_mape_test": 0.1477896124124527,
+        "total_epochs": 92
+    },
+    "handler021.pkl": {
+        "athlete": "[19741163]",
+        "best_mape_test": 0.0856315866112709,
+        "total_epochs": 99
+    },
+    "handler022.pkl": {
+        "athlete": "[5861500]",
+        "best_mape_test": 0.13159339129924774,
+        "total_epochs": 128
+    },
+    "handler023.pkl": {
+        "athlete": "[12021072]",
+        "best_mape_test": 0.10257391631603241,
+        "total_epochs": 43
+    },
+    "handler024.pkl": {
+        "athlete": "[25191153]",
+        "best_mape_test": 0.09829330444335938,
+        "total_epochs": 98
+    },
+    "handler025.pkl": {
+        "athlete": "[15515123]",
+        "best_mape_test": 0.10070373117923737,
+        "total_epochs": 157
+    },
+    "handler026.pkl": {
+        "athlete": "[11088529]",
+        "best_mape_test": 0.10955081880092621,
+        "total_epochs": 193
+    },
+    "handler027.pkl": {
+        "athlete": "[11284478]",
+        "best_mape_test": 0.11699322611093521,
+        "total_epochs": 44
+    },
+    "handler028.pkl": {
+        "athlete": "[3539760]",
+        "best_mape_test": 0.11997750401496887,
+        "total_epochs": 90
+    },
+    "handler029.pkl": {
+        "athlete": "[22843389]",
+        "best_mape_test": 0.11288076639175415,
+        "total_epochs": 188
+    },
+    "handler030.pkl": {
+        "athlete": "[14588097]",
+        "best_mape_test": 0.09610122442245483,
+        "total_epochs": 156
+    },
+    "handler031.pkl": {
+        "athlete": "[20136629]",
+        "best_mape_test": 0.1364838033914566,
+        "total_epochs": 224
+    },
+    "handler032.pkl": {
+        "athlete": "[2913078]",
+        "best_mape_test": 0.258441686630249,
+        "total_epochs": 8
+    },
+    "handler033.pkl": {
+        "athlete": "[16021442]",
+        "best_mape_test": 0.07299721240997314,
+        "total_epochs": 252
+    },
+    "handler034.pkl": {
+        "athlete": "[22891135]",
+        "best_mape_test": 0.16496707499027252,
+        "total_epochs": 252
+    },
+    "handler035.pkl": {
+        "athlete": "[34669133]",
+        "best_mape_test": 0.10195843875408173,
+        "total_epochs": 234
+    },
+    "handler036.pkl": {
+        "athlete": "[1776170]",
+        "best_mape_test": 0.09919724613428116,
+        "total_epochs": 200
+    },
+    "handler037.pkl": {
+        "athlete": "[26367918]",
+        "best_mape_test": 0.15014393627643585,
+        "total_epochs": 72
+    },
+    "handler038.pkl": {
+        "athlete": "[21299972]",
+        "best_mape_test": 0.1328480839729309,
+        "total_epochs": 328
+    },
+    "handler039.pkl": {
+        "athlete": "[12701438]",
+        "best_mape_test": 0.14675645530223846,
+        "total_epochs": 272
+    },
+    "handler040.pkl": {
+        "athlete": "[14019837]",
+        "best_mape_test": 0.1076466292142868,
+        "total_epochs": 106
+    },
+    "handler041.pkl": {
+        "athlete": "[12740383]",
+        "best_mape_test": 0.1345367729663849,
+        "total_epochs": 204
+    },
+    "handler042.pkl": {
+        "athlete": "[34460713]",
+        "best_mape_test": 0.12087761610746384,
+        "total_epochs": 81
+    },
+    "handler043.pkl": {
+        "athlete": "[18042525]",
+        "best_mape_test": 0.05031050369143486,
+        "total_epochs": 89
+    },
+    "handler044.pkl": {
+        "athlete": "[22353493]",
+        "best_mape_test": 0.1033877432346344,
+        "total_epochs": 38
+    },
+    "handler045.pkl": {
+        "athlete": "[12642956]",
+        "best_mape_test": 0.16542451083660126,
+        "total_epochs": 57
+    }
+}

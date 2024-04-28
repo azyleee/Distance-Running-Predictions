@@ -4,18 +4,27 @@
   <img src="https://github.com/azyleee/Distance-Running-Predictions/blob/main/images/alphafly-crop.png" alt="llama playing chess" width=500/>
 </p>
 
-In this project, I created a set of base models to be fine-tuned to predict a user's distance running race time from their Strava history.
+This project created an application to predict distance running race times based on a user's Strava history.
 
-In this project, I conducted Exploratory Data Analysis, feature engineering from Kaggle dataset (link), applying data cleaning, data mining, transforming and scaling
+The app is built upon a series of base models which were created in this project, and stored in ```base_models_complete```. 
 
-deep but simple neural networks
+The models employed are deep, but simple, PyTorch neural networks.
 
-achieved 97% accuracy on race time prediction 
+The app finds the best performing base model for the new user's data, then applies data transform and scaling, then fine-tuning to fit the model to the new data.
 
-to test it out yourself visit (streamlit link)
+Key project steps include:
+
+- Conducting Exploratory Data Analysis
+- Performing feature engineering using a [Kaggle dataset](httpswww.kaggle.comdatasetsolegoaerrunning-races-strava)
+- Applying data cleaning, mining, transformation, and scaling techniques
+
+The entire process was conducted in ```main.ipynb```, with modules contained in the ```helpers``` folder.
+
+The application achieved a notable 97% accuracy in race time prediction for the creator's 5K time.
+
+To try out the application yourself, visit the deployed [dashboard on Streamlit](https://distance-running-predictions.streamlit.app/)"
 
 # Prerequisite Libraries
-To generate the dataset, you will need:
 * ```numpy```
 * ```pandas```
 * ```matplotlib```

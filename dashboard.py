@@ -76,6 +76,9 @@ with col1:
 
                 st.session_state.ft_handler = ft_handler
 
+            st.write(f'Trained on {len(st.session_state.ft_handler.x_train_tensor)} data points.')
+            st.write(f'Tested on {len(st.session_state.ft_handler.x_test_tensor)} data points.')
+
 with col2:
 
     if st.session_state.ft_handler is not None:

@@ -747,6 +747,12 @@ def prepare_user_data(base_dataobject, user_df, race_info):
     # create the time ago column using the race date as the datum
     user_df = time_before_race(user_df, race_info)
 
+    # drop rows without heart rate data (or any other data)
+    user_df.dropna(inplace=True)
+
+    # drop rows <1500m
+    user_df.drop(user_df[user_df["distance (m)"] < 1500].index, inplace=True)
+
     # assign a time ago value to the race info row (time ago is 0)
     race_info_ta = race_info.copy()
     race_info_ta['time ago (s)'] = 0.0
